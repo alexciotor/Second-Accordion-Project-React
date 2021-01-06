@@ -1,0 +1,42 @@
+body {
+  background-color: #4b145b;
+  height: 100vh;
+}
+
+.main-container {
+  width: 60%;
+  height: 90vh;
+  border-radius: 8px;
+  background-color: white;
+  margin: auto;
+  margin-top: 10vh;
+  padding-top: 1vh;
+  display: flex;
+}
+.left-side {
+  width: 24%;
+  text-transform: capitalize;
+  margin-left: 25px;
+  font-size: 1.5rem;
+}
+.right-side {
+  width: 80%;
+}
+
+.article {
+  width: 50%;
+  margin: auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 0.25rem;
+}
+.art-title {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btn {
+  text-align: center;
+  margin-top: 50%;
+  width: 50px;
+  font-size: 20px;
+}
