@@ -5,7 +5,7 @@
  import Accordion from './accordion'
 console.log(data);
 function App() {
-  const [display, setDisplay ]  =useState(true)
+
  
   return (
   <main>
@@ -16,7 +16,7 @@ function App() {
   
   <div className="right-side">
   {data.map(item=>{
-     
+    
     return (
 <Accordion item ={item} />
     )
